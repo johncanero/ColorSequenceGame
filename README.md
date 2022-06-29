@@ -3,3 +3,5 @@ This is the Color Sequence Game (Improved Interface) guide by the Web Developmen
 Welcome mainBranch! 
 
 Welcome colorGameBranch!
+
+Welcome colorGameTree!
