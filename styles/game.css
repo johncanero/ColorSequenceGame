@@ -26,6 +26,10 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  font-size: 1.3em;
+}
+
 
 h3,
 p {
@@ -50,6 +54,66 @@ p {
   padding-top: 0.5em;
   padding-bottom: 12em;
 }
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 4em;
+  }
+
+
+  h3 {
+    font-size: 1.7em;
+  }
+
+
+   p {
+    font-size: 1.3em;
+  }
+  
+
+  .pressKeyPadding {
+    padding-top: 4em;
+  }
+
+  .buttonPadding {
+    padding-top: 0.5em;
+    padding-bottom: 11.5em;
+  }
+
+}
+
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  
+  .pressKeyPadding {
+    padding-top: 3em;
+  }
+
+  .buttonPadding {
+    padding-bottom: 3.2em;
+  }
+
+}
+
+
+
+
+
 /* Grid Container */
 
 .grid-container1 {
@@ -90,8 +154,63 @@ p {
   width: 8em;
   border: 5px solid black;
   border-radius: 20%;
-  margin-top: 1em;
+  margin-top: 0.3em;
 }
+
+
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+  .grid-container1 {
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 130px 130px;
+    gap: 80px;
+  
+    justify-content: center;
+    text-align: center;
+  
+    padding-top: 3em;
+    padding-right: 3em;
+    
+  }
+
+  .btn {
+    height: 11em;
+    width: 11em;
+  }
+
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+
+  .grid-container1 {
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 130px 130px;
+    gap: 80px;
+  
+    justify-content: center;
+    text-align: center;
+  
+    padding-top: 1em;
+    padding-right: 3em
+
+  }
+
+
+  .btn {
+    height: 11em;
+    width: 11em;
+  }
+
+}
+
+
+
+
+
 
 /* Colors */
 .game-over {
@@ -152,6 +271,27 @@ p {
   position: relative;
   top: 1px;
 }
+
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .myButton {
+    margin-left: 5.5em;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  .myButton {
+    margin-top: 1em;
+    margin-left: 5.5em;
+  }
+}
+
+
+
+
 
 /* font-family: 'Knewave', cursive;
 font-family: 'Montserrat', sans-serif;
