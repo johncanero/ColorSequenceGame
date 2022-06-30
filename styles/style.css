@@ -19,25 +19,27 @@
 }
 
 
-/* Section Padding */
-.sectionPadding1 {
-    margin-top: 2em;
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-bottom: 10em;
-}
 
 
-.colorSequencePadding {
-    margin-top: 1em;
-}
+    /* Section Padding */
+    .sectionPadding1 {
+        margin-top: 2em;
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-bottom: 10em;
+    }
 
 
-.colorSequenceTagline {
-    margin-top: 1.2em;
-    margin-right: 3em;
-    margin-left: 3em;
-}
+    .colorSequencePadding {
+        margin-top: 1em;
+    }
+
+
+    .colorSequenceTagline {
+        margin-top: 1.2em;
+        margin-right: 3em;
+        margin-left: 3em;
+    }
 
 
 
@@ -54,6 +56,34 @@
         font-family: 'Squada One', cursive;
     }
 
+
+
+    /* Tablet */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+        h1 {
+            font-size: 3em;
+        }
+
+        h3 {
+            font-size: 1.7em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+
+        .colorSequenceTagline {
+            margin-top: 2.1em;
+        }
+
+        .sectionPadding1 {
+            margin-bottom: 17.8em;
+        }
+    
+    }
 
 
 /* Flexbox */
@@ -118,6 +148,24 @@
     padding: 1em;
 }
 
+
+
+    /* Tablet */
+    @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+        /* Images */
+        .colorSequenceLogo {
+            width: 22em;
+        }
+
+
+        .myButton {
+            margin-top: 2em;
+        }
+
+    }
 
 
 
