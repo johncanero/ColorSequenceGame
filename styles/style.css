@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Background */
+.backgroundContainer1 {
+   background-image: url(https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+
+   padding-bottom: 38.5em;
+}
+
+
+/* Section Padding */
+.sectionPadding1 {
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+
+
+
+/* Heading Tags */
+h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 2.5em;
+}
+
+
+
+
+
+/* Flexbox */
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+
+    /* Align center */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    flex-wrap: wrap;
+}
+
+
+
+/* Images */
+.colorSequenceLogo {
+    width: 11em;
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Squada One', cursive; */
