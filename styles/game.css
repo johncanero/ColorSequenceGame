@@ -1,32 +1,97 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Background */
+.backgroundContainer1 {
+  background-image: url(https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
-  background-color: #011F3F;
 }
 
-#level-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+
+.backgroundContainer2 {
+  background-color: #ffe8b9;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
-
+/* Heading Tags */
+h1 {
+  color: #211e1e;
+  font-family: "Squada One", cursive;
+  font-size: 3em;
+  text-shadow: 3px 3px #ffe8b9;
+  text-align: center;
 }
+
+
+h3,
+p {
+  font-weight: 300;
+  font-family: "Squada One", cursive;
+}
+
+
+/* Footer */
+
+.copyright {
+  padding: 1em;
+}
+
+
+.pressKeyPadding {
+  padding-top: 3em;
+}
+
+
+.buttonPadding {
+  padding-top: 0.5em;
+  padding-bottom: 12em;
+}
+/* Grid Container */
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 130px 130px;
+  grid-template-rows: 130px 130px;
+  gap: 25px;
+
+  justify-content: center;
+  text-align: center;
+
+  padding-top: 2em;
+  padding-right: 0.5em;
+  
+}
+
+
+/* Flexbox */
+
+/* Flexbox */
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+
+  /* Align center */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  flex-wrap: wrap;
+}
+
 
 .btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  /* margin: 25px; */
+  /* display: inline-block; */
+  height: 8em;
+  width: 8em;
+  border: 5px solid black;
   border-radius: 20%;
+  margin-top: 1em;
 }
-
-
 
 /* Colors */
 .game-over {
@@ -35,19 +100,19 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: #ff595d;
 }
 
 .green {
-  background-color: green;
+  background-color: #8bc926;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #1982c4;
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: #ffc939;
 }
 
 .pressed {
@@ -55,34 +120,40 @@ body {
   background-color: grey;
 }
 
-
 /* Button */
 
 .myButton {
-	/* box-shadow: 0px 1px 0px 0px #1c1b18; */
-	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
-	background-color:#eae0c2;
-	border-radius:15px;
-	border: 1.4px solid #211e1e;
-	display:inline-block;
-    
-	cursor:pointer;
-	color:#211e1e;
-    font-family: 'Squada One', cursive;
-	font-size: 1.5em;
-	font-weight:bold;
+  /* box-shadow: 0px 1px 0px 0px #1c1b18; */
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 15px;
+  border: 1.4px solid #211e1e;
+  display: inline-block;
 
-	padding: 0.6em 2em;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+  cursor: pointer;
+  color: #211e1e;
+  font-family: "Squada One", cursive;
+  font-size: 1.5em;
+  font-weight: bold;
 
-  margin-top: 1em;
+  padding: 0.6em 1.5em;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+
+  margin-top: 2em;
+  margin-left: 3.5em;
+  text-align: center;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
+
+/* font-family: 'Knewave', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Squada One', cursive; */

@@ -1,214 +1,178 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 
 /* Background */
 .backgroundContainer1 {
-   background-image: url(https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+  background-image: url(https://images.unsplash.com/photo-1619252584172-a83a949b6efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
 
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-align: center;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .backgroundContainer2 {
-    background-color: #ffe8b9;
+  background-color: #ffe8b9;
 }
 
+/* Section Padding */
+.sectionPadding1 {
+  margin-top: 2em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: 11em;
+}
 
+.colorSequencePadding {
+  margin-top: 1em;
+}
 
+.colorSequenceTagline {
+  margin-top: 1.2em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
 
-    /* Section Padding */
-    .sectionPadding1 {
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-left: 2em;
-        margin-bottom: 10em;
-    }
+/* Heading Tags */
+h1 {
+  color: #211e1e;
+  font-family: "Knewave", cursive;
+  font-size: 2.5em;
+  text-shadow: 3px 3px #ffe8b9;
+}
 
+h3 {
+    font-size: 1.3em;
+}
 
-    .colorSequencePadding {
-        margin-top: 1em;
-    }
+h3,
+p {
+  font-weight: 300;
+  font-family: "Squada One", cursive;
+}
 
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  h1 {
+    font-size: 3em;
+  }
 
-    .colorSequenceTagline {
-        margin-top: 1.2em;
-        margin-right: 3em;
-        margin-left: 3em;
-    }
+  h3 {
+    font-size: 1.7em;
+  }
 
+  p {
+    font-size: 1.3em;
+  }
 
+  .colorSequenceTagline {
+    margin-top: 2.1em;
+  }
 
-    /* Heading Tags */
-    h1 {
-        color: #211e1e;
-        font-family: 'Knewave', cursive;
-        font-size: 2.5em;
-        text-shadow: 3px 3px #ffe8b9;
-    }
+  .sectionPadding1 {
+    margin-bottom: 17.8em;
+  }
+}
 
-    h3, p {
-        font-weight: 300;
-        font-family: 'Squada One', cursive;
-    }
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  h1 {
+    font-size: 3em;
+  }
 
+  h3 {
+    font-size: 1.7em;
+  }
 
+  p {
+    font-size: 1.5em;
+  }
 
-    /* Tablet */
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px)  {
-
-        h1 {
-            font-size: 3em;
-        }
-
-        h3 {
-            font-size: 1.7em;
-        }
-
-        p {
-            font-size: 1.3em;
-        }
-
-        .colorSequenceTagline {
-            margin-top: 2.1em;
-        }
-
-        .sectionPadding1 {
-            margin-bottom: 17.8em;
-        }
-    
-    }
-
-
-    /* Desktop */
-    @media only screen 
-    and (min-device-width: 1025px)  {
-
-        h1 {
-            font-size: 3em;
-        }
-
-        h3 {
-            font-size: 1.7em;
-        }
-
-        p {
-            font-size: 1.5em;
-        }
-
-        .sectionPadding1 {
-            margin-bottom: 4.5em;
-        }
-    }
-    
-
-
+  .sectionPadding1 {
+    margin-bottom: 5em;
+  }
+}
 
 /* Flexbox */
 .flex-container1 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    /* Align center */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  /* Align center */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
-
 
 /* Images */
 .colorSequenceLogo {
-    margin-top: 2em;
-    width: 19em;
+  margin-top: 2em;
+  width: 19em;
 }
-
-
 
 /* Button */
 
 .myButton {
-	/* box-shadow: 0px 1px 0px 0px #1c1b18; */
-	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
-	background-color:#eae0c2;
-	border-radius:15px;
-	border: 1.4px solid #211e1e;
-	display:inline-block;
-    
-	cursor:pointer;
-	color:#211e1e;
-    font-family: 'Squada One', cursive;
-	font-size: 1.5em;
-	font-weight:bold;
+  /* box-shadow: 0px 1px 0px 0px #1c1b18; */
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 15px;
+  border: 1.4px solid #211e1e;
+  display: inline-block;
 
-	padding: 0.6em 2em;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+  cursor: pointer;
+  color: #211e1e;
+  font-family: "Squada One", cursive;
+  font-size: 1.5em;
+  font-weight: bold;
 
-    margin-top: 3em;
+  padding: 0.6em 2em;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+
+  margin-top: 2em;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
 }
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-
-    
 
 /* Footer */
 
 .copyright {
-    padding: 1em;
+  padding: 1em;
 }
 
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Images */
+  .colorSequenceLogo {
+    width: 22em;
+  }
 
+  .myButton {
+    margin-top: 2em;
+  }
+}
 
-    /* Tablet */
-    @media only screen 
-    and (min-device-width: 768px) 
-    and (max-device-width: 1024px)  {
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Images */
+  .colorSequenceLogo {
+    width: 22em;
+  }
 
-        /* Images */
-        .colorSequenceLogo {
-            width: 22em;
-        }
-
-
-        .myButton {
-            margin-top: 2em;
-        }
-
-    }
-
-    
-    /* Desktop */
-    @media only screen 
-    and (min-device-width: 1025px)  {
-
-        /* Images */
-        .colorSequenceLogo {
-            width: 22em;
-        }
-
-        
-        .myButton {
-            margin-top: 2em;
-        }
-    }
-    
-
-
+  .myButton {
+    margin-top: 2em;
+  }
+}
 
 /* font-family: 'Knewave', cursive;
 font-family: 'Montserrat', sans-serif;
