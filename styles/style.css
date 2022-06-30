@@ -14,12 +14,17 @@
 
 }
 
+.backgroundContainer2 {
+    background-color: #ffe8b9;
+}
+
 
 /* Section Padding */
 .sectionPadding1 {
     margin-top: 2em;
     margin-right: 2em;
     margin-left: 2em;
+    margin-bottom: 10em;
 }
 
 
@@ -44,7 +49,7 @@
         text-shadow: 3px 3px #ffe8b9;
     }
 
-    h3 {
+    h3, p {
         font-weight: 300;
         font-family: 'Squada One', cursive;
     }
@@ -81,10 +86,11 @@
 	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
 	background-color:#eae0c2;
 	border-radius:15px;
-	border: 2.5px solid #211e1e;
+	border: 1.4px solid #211e1e;
 	display:inline-block;
+    
 	cursor:pointer;
-	color:#505739;
+	color:#211e1e;
     font-family: 'Squada One', cursive;
 	font-size: 1.5em;
 	font-weight:bold;
@@ -104,7 +110,13 @@
 	top:1px;
 }
 
-        
+    
+
+/* Footer */
+
+.copyright {
+    padding: 1em;
+}
 
 
 
