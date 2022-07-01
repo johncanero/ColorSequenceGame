@@ -3,3 +3,5 @@ This is the Color Sequence Game (Improved Interface) - Simon Game Challenge guid
 Welcome mainBranch! 
 
 I am back mainBranch!
+
+<img src="images/desktopView.png" alt="desktopView.png">
