@@ -131,7 +131,7 @@ h3, p {
   /* display: inline-block; */
   height: 8em;
   width: 8em;
-  border: 5px solid black;
+  border: 4.5px solid black;
   border-radius: 20%;
   margin-top: 0.3em;
 }
