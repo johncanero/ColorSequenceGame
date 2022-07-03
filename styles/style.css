@@ -1,6 +1,15 @@
-* {
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
 }
 
 body {
@@ -8,6 +17,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+
+  /* footer support */
+  margin-bottom: 100px;
 }
 
 
@@ -19,16 +31,12 @@ body {
   text-align: center;
 } */
 
-.backgroundContainer2 {
-  background-color: #ffe8b9;
-}
 
 /* Section Padding */
 .sectionPadding1 {
   margin-top: 2em;
   margin-right: 2em;
   margin-left: 2em;
-  margin-bottom: 12em;
 }
 
 .colorSequencePadding {
@@ -70,9 +78,6 @@ p {
   .colorSequenceTagline {
     margin-top: 2.1em;
   }
-  .sectionPadding1 {
-    margin-bottom: 17.8em;
-  }
 }
 
 
@@ -88,10 +93,6 @@ p {
   }
   p {
     font-size: 1.5em;
-  }
-
-  .sectionPadding1 {
-    margin-bottom: 5em;
   }
 }
 
@@ -148,8 +149,22 @@ p {
 }
 
 /* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffe8b9;
+}
+
 .copyright {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 /* Tablet */
