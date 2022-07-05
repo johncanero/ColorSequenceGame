@@ -1,7 +1,16 @@
-* {
-  margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
+
+html {
+  /* footer support */
+  position: relative;
+  min-height: 100%;
+} 
 
 /* Background */
 .backgroundContainer1 {
@@ -32,10 +41,6 @@ h3, p {
 }
 
 
-/* Footer */
-.copyright {
-  padding: 1em;
-}
 .pressKeyPadding {
   padding-top: 3em;
 }
@@ -43,6 +48,27 @@ h3, p {
   padding-top: 0.5em;
   padding-bottom: 12em;
 }
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffe8b9;
+}
+
+.copyright {
+  padding: 0.5em;
+}
+
+
 
 
 /* Tablet */

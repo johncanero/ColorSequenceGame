@@ -1,63 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ColorSequence Game</title>
-    
+
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@100;300;400;700&family=Poppins:wght@300;400;700&family=Squada+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@100;300;400;700&family=Poppins:wght@300;400;700&family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/colorSequenceLogo.png">
+    <link rel="icon" type="image/x-icon" href="images/colorSequenceLogo.png" />
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <!-- Sound -->
     <audio id="startbuttonsound" src="sounds/startbuttonsound.mp3"></audio>
-    
+
     <section>
-        <div class="backgroundContainer1">
-            <div class="flex-container1">
-                <div class="sectionPadding1">
-                    <div class="colorSequencePadding">
-                        <h1>Color Sequence</h1>
-                    </div>
-        
-                    <div>
-                        <img class="colorSequenceLogo" src="images/colorSequenceLogo.png" alt="colorSequenceLogo.png">
-                    </div>
-
-                    <div class="colorSequenceTagline">
-                        <h3>An easy and convenient game for all ages. <i class="fa-solid fa-gamepad"></i></h3>
-                    </div>
-                    
-                    <div id="startContainer">
-                        <button id="startButton" class="myButton" onclick="playSound()">
-                            START
-                        </button>
-                    </div>
-
-                </div>
+      <div class="backgroundContainer1">
+        <div class="flex-container1">
+          <div class="sectionPadding1">
+            <div class="colorSequencePadding">
+              <h1>Color Sequence</h1>
             </div>
-        </div>
-    </section>
-    
 
-      <!-- Copyright -->
-      <footer>
-        <div class="footer">
-            <p class="copyright">© 2022 John Cañero</p>   
+            <div>
+              <img
+                class="colorSequenceLogo"
+                src="images/colorSequenceLogo.png"
+                alt="colorSequenceLogo.png"
+              />
+            </div>
+
+            <div class="colorSequenceTagline">
+              <h3>
+                An easy and convenient game for all ages.
+                <i class="fa-solid fa-gamepad"></i>
+              </h3>
+            </div>
+
+            <div id="startContainer">
+              <button id="startButton" class="myButton" onclick="playSound()">
+                START
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <footer>
+      <div class="footer">
+        <p class="copyright">© 2022 John Cañero</p>
+      </div>
+    </footer>
 
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
