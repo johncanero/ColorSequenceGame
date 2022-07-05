@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
+    <!-- Sound -->
+    <audio id="startbuttonsound" src="sounds/startbuttonsound.mp3"></audio>
+    
     <section>
         <div class="backgroundContainer1">
             <div class="flex-container1">
@@ -38,8 +40,10 @@
                         <h3>An easy and convenient game for all ages. <i class="fa-solid fa-gamepad"></i></h3>
                     </div>
                     
-                    <div>
-                        <a class="myButton" href="game.html">START</a>
+                    <div id="startContainer">
+                        <button id="startButton" class="myButton" onclick="playSound()">
+                            START
+                        </button>
                     </div>
 
                 </div>
