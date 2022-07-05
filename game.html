@@ -25,6 +25,8 @@
 </head>
 
 <body>
+  <!-- Sound -->
+  <audio id="startbuttonsound" src="sounds/startbuttonsound.mp3"></audio>
 
   <section>
     
@@ -42,8 +44,10 @@
           </div>
         </div>
 
-        <div class="flex-container1">
-          <a class="myButton" href="index.html">HOME  </a>
+        <div>
+          <button id="homeButton" class="myButton" onclick="playSound()">
+            HOME
+          </button>
         </div>
       </div>
   </section>

@@ -244,7 +244,7 @@ h3, p {
   background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
   background-color: #eae0c2;
   border-radius: 15px;
-  /* border: 1.4px solid #211e1e; */
+  border: 0px solid #000;
   display: inline-block;
 
   cursor: pointer;
