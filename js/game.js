@@ -80,7 +80,7 @@ function startOver() {
 
 // Start Button
 // Functions to play main button audio on click
-function playSound () {
+function playSound2() {
   const sound = document.getElementById("startbuttonsound");
   sound.play();
   sound.addEventListener("ended", function() {
