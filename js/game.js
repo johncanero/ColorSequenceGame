@@ -90,5 +90,9 @@ function playSound2() {
 
 
 // Touchstart
-const el = document.querySelector("canvas");
-el.addEventListener("touchstart", handleStart);
+$(document).ready(function() { // better to use $(document).ready(function(){
+  $(".btn").on('click touchstart', function() {
+      $('.Div').slideDown('500');
+  });
+});
+
