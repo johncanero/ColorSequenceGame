@@ -21,9 +21,9 @@
 
 ✍️ Project by John Cañero.
 
-## Responsive Images
+## Responsive Design
 
-🪟:
+🪟: [Desktop - Tablet - Mobile]
 
 ![Desktop View - Simon Game](/images/desktopView.jpg)
 ![Tablet View - Simon Game](/images/tabletView.jpg)
