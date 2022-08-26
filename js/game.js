@@ -90,9 +90,9 @@ function playSound2() {
 
 
 // Touchstart
-$(document).ready(function() { // better to use $(document).ready(function(){
+function myFunction() { // better to use $(document).ready(function(){
   $(".btn").on('click touchstart', function() {
       $('.Div').slideDown('500');
   });
-});
+};
 
