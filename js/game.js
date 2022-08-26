@@ -89,10 +89,3 @@ function playSound2() {
 }
 
 
-// Touchstart
-function myFunction() { // better to use $(document).ready(function(){
-  $(".btn").on('click touchstart', function() {
-      $('.Div').slideDown('500');
-  });
-};
-
