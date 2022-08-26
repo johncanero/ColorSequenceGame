@@ -12,4 +12,4 @@
 
 ![Desktop View - Simon Game](/images/desktopView.jpg)
 ![Tablet View - Simon Game](/images/tabletView.jpg)
-![Mobile View - Simon Game](/images/mobileView.jpg)
+![Mobile View - Simon Game](/images/mobileResponsive.jpg)
