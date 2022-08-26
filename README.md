@@ -1,6 +1,14 @@
-# This is the Color Sequence Game (Improved Interface) - Simon Game Challenge guide by the Web Development BootCamp Course by Angela Yu (Udemy)
+# Simon Game Challenge
+
+> This is the Color Sequence Game (Improved Interface)
+
+## Website
+
+[https://johncanero.github.io/ColorSequenceGame/]
 
 Project by John Cañero.
+
+Responsive Images:
 
 ![Desktop View - Simon Game](/images/desktopView.jpg)
 ![Tablet View - Simon Game](/images/tabletView.jpg)
