@@ -9,7 +9,7 @@
 
 <div align="center">
   <a href="https://johncanero.github.io/ColorSequenceGame/" target="_blank">
-    <img alt="simon-logo" height="70" src="/images/colorSequenceLogo.png"/>
+    <img alt="simon-logo" height="100" src="/images/colorSequenceLogo.png"/>
   </a>
 </div>
 
