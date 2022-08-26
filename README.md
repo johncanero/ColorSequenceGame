@@ -2,4 +2,6 @@
 
 Project by John Cañero.
 
-![alt text](/images/)
+![Desktop View - Simon Game](/images/desktopView.jpg)
+![Tablet View - Simon Game](/images/tabletView.jpg)
+![Mobile View - Simon Game](/images/mobileView.jpg)
