@@ -4,11 +4,11 @@
 
 ## Website
 
-[https://johncanero.github.io/ColorSequenceGame/]
+🖥️ [https://johncanero.github.io/ColorSequenceGame/]
 
-Project by John Cañero.
+✍️ Project by John Cañero.
 
-Responsive Images:
+🪟 Responsive Images:
 
 ![Desktop View - Simon Game](/images/desktopView.jpg)
 ![Tablet View - Simon Game](/images/tabletView.jpg)
