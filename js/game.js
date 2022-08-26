@@ -91,7 +91,7 @@ function playSound2() {
 
 // Touchstart
 $(document).ready(function() { // better to use $(document).ready(function(){
-  $('.List li').on('click touchstart', function() {
+  $('.backgroundContainer1').on('click touchstart', function() {
       $('.Div').slideDown('500');
   });
 });
