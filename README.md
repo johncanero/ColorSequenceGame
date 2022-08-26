@@ -23,6 +23,7 @@ and Howard J. Morrison, working for a toy design firm Marvin Glass and Associate
 and lights and requires a user to repeat the sequence.
 
 This is the Color Sequence Game (Improved Interface) 🟥🟨🟩🟦
+> The game is only working on Desktop view
 
 </div>
 
