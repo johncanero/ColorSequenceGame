@@ -16,7 +16,7 @@ and Howard J. Morrison, working for a toy design firm Marvin Glass and Associate
 , with software programming by Lenny Cope. The device creates a series of tones
 and lights and requires a user to repeat the sequence.
 
-This is the Color Sequence Game (Improved Interface)
+This is the Color Sequence Game (Improved Interface) 🟥🟨🟩🟦
 
 </div>
 
