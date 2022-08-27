@@ -29,7 +29,7 @@ This is the Color Sequence Game (Improved Interface) 🟥🟨🟩🟦
 
 ## Website
 
-🖥️ https://johncanero.github.io/ColorSequenceGame/
+🖥️ [https://johncanero.github.io/ColorSequenceGame/]
 
 ✍️ Project by John Cañero
 
